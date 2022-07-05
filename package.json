@@ -1,0 +1,24 @@
+{
+  "name": "gelbooru-downloader",
+  "version": "1.0.0",
+  "description": "Downloads all favorites of a Gelbooru user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightbulblighter/gelbooru-downloader.git"
+  },
+  "author": "lightbulblighter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lightbulblighter/gelbooru-downloader/issues"
+  },
+  "homepage": "https://github.com/lightbulblighter/gelbooru-downloader#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.6.7"
+  }
+}
